@@ -171,11 +171,10 @@ a {
 
 @media (max-width: 900px) { 
   #projects .project {
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 550px;
     margin-bottom: 5%;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin-left: 5%;
     border-bottom: 2px solid #FCEFD8;
     border-right: 2px solid #FCEFD8;
     border-radius: 10px;
@@ -189,7 +188,12 @@ a {
     flex-direction: column;
   }
   #contact .mail button {
+    position: relative;
+    bottom: 10px;
     width: 80%;
+  }
+  #contact .mail a {
+    margin-right: 0;
   }
   #contact .contacts {
     width: 100%;
