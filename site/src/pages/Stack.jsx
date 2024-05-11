@@ -7,7 +7,7 @@ import like from "../assets/like.png";
 function Stack() {
   return (
     <div id="stack">
-      <h2>Backend Stack ⭐</h2>
+      <h2>Backend ⭐</h2>
       <div className="stack-icons">
         <img src={python} alt="" />
         <img src={django} alt="" />
@@ -246,7 +246,7 @@ function Stack() {
         </svg>
         <img src={poetry} alt="" />
       </div>
-      <h2>Frontend Stack</h2>
+      <h2>Frontend</h2>
       <div className="stack-icons">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
           <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z" />
@@ -363,7 +363,7 @@ function Stack() {
           />
         </svg>
       </div>
-      <h2>Other skills</h2>
+      <h2>Другое</h2>
       <div className="stack-icons">
         <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -3497,7 +3497,7 @@ function Stack() {
         </svg>
       </div>
       <div className="soft-skills">
-        <h2>Soft skills</h2>
+        <h2>Софт скиллы</h2>
         <img src={like} alt="" />
       </div>
     </div>

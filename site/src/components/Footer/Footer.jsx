@@ -32,15 +32,6 @@ function Footer() {
           alt="cat"
         />
       </div>
-      <div className="small-cat">
-        <img
-          onClick={() => {
-            meow(false, "😡");
-          }}
-          src={cat2}
-          alt="cat"
-        />
-      </div>
     </div>
   );
 }

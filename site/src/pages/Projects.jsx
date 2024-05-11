@@ -16,19 +16,23 @@ function Projects() {
           <img src={projectShopImg} alt="" />
           <div className="text">
             <a href="https://github.com/Kematin/Telegram-Bots/tree/main/SellProjectBot">
-              <h3>Project System ⭐</h3>
+              <h3>Магазин проектов ⭐</h3>
             </a>
-            <p>Ready Telegram store with implemented admin panel</p>
+            <p>
+              Телеграм магазин (бот) по продаже школьных проектов с готовой
+              админ панелью
+            </p>
           </div>
         </div>
         <div className="project">
           <img src={converterVideoImg} alt="" />
           <div className="text">
             <a href="https://github.com/Kematin/Telegram-Bots/tree/main/ConvertVideoToAudio">
-              <h3>Video converter bot</h3>
+              <h3>Конвертер видео</h3>
             </a>
             <p>
-              Telegram bot to convert video to audio from youtube or from a file
+              Телеграм бот, который конвертирует видео с ютуб/файл в аудио
+              формат
             </p>
           </div>
         </div>
@@ -36,38 +40,36 @@ function Projects() {
           <img src={csmoneyBotImg} alt="" />
           <div className="text">
             <a href="https://github.com/Kematin/Parsers/tree/main/CSMoney">
-              <h3>Skin Parser</h3>
+              <h3>Парсер скинов</h3>
             </a>
-            <p>
-              Asynchronous parser of profitable CSMoney offers with Telegram bot
-            </p>
+            <p>Асинхронный парсер выгодных предложений с CSMoney с тг ботом</p>
           </div>
         </div>
         <div className="project">
           <img src={keyboardShopImg} alt="" />
           <div className="text">
             <a href="https://github.com/Kematin/Keyboard-Shop">
-              <h3>KeyboardShop</h3>
+              <h3>Магазин клавиатур</h3>
             </a>
-            <p>Online store selling keyboards</p>
+            <p>Онлайн магазин по продаже клавиатур (geekboards like)</p>
           </div>
         </div>
         <div className="project">
           <img src={microcontrollerImg} alt="" />
           <div className="text">
             <a href="https://github.com/Kematin/School-Project">
-              <h3>Microcontrollers</h3>
+              <h3>Микроконтроллеры</h3>
             </a>
-            <p>A site for learning about microcontrollers</p>
+            <p>Сайт-визитка для изучения микроконтроллеров</p>
           </div>
         </div>
         <div className="project">
           <img src={fiveParserImg} alt="" />
           <div className="text">
             <a href="https://github.com/Kematin/Parsers/tree/main/FiveShopParser">
-              <h3>Stock parser</h3>
+              <h3>Парсер скидок</h3>
             </a>
-            <p>Asynchronous Parser of "Five" shares with Telegram bot</p>
+            <p>Асинхронный парсер выгодных предложений пятерочки с тг ботом</p>
           </div>
         </div>
         <div className="project">
@@ -76,20 +78,20 @@ function Projects() {
             <a href="https://github.com/Kematin/chatgpt-assistant">
               <h3>GPT Assitant</h3>
             </a>
-            <p>Layer to use ChatGPT with flexible api customization</p>
+            <p>Сайт для использования ChatGPT с гибкими настройками</p>
           </div>
         </div>
         <div className="project">
           <img src={weatherImg} alt="" />
           <div className="text">
             <a href="https://github.com/Kematin/WEB-projects/tree/master/WeatherApp">
-              <h3>Weather App ❤️</h3>
+              <h3>Погодное приложение ❤️</h3>
             </a>
-            <p>Web applications for weather detection (First project)</p>
+            <p>Веб приложение для информирования о погоде (первый проект) </p>
           </div>
         </div>
       </div>
-      <h3 id="project-text">And also this portfolio :)</h3>
+      <h3 id="project-text">И это портфолио :)</h3>
     </>
   );
 }
