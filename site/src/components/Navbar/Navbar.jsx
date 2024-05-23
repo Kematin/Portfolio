@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav>
       <NavLink to="/">Я</NavLink>
-      <NavLink to="/stack">Скиллы</NavLink>
+      <NavLink to="/resume">Резюме</NavLink>
       <NavLink to="/projects">Проекты</NavLink>
       <NavLink to="/contact">Контакты</NavLink>
     </nav>

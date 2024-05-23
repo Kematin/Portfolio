@@ -137,7 +137,21 @@ a {
   border-radius: 0.5rem;
   cursor: pointer;
   font-size: large;
-  font-weight: bold;
+}
+#stack .download-resume {
+  display: flex;
+  justify-content: center;
+}
+#stack .download-resume button {
+  background-color: #252725;
+  color: palegreen;
+  height: 2.5rem;
+  width: 20rem;
+  border: 0px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: large;
+  margin-top: 1rem;
 }
 #contact .contacts {
   display: flex;

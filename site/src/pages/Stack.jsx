@@ -7,6 +7,9 @@ import like from "../assets/like.png";
 function Stack() {
   return (
     <div id="stack">
+      <div className="download-resume">
+        <a href="/resume.pdf"><button>Скачать резюме</button></a>
+      </div>
       <h2>Backend ⭐</h2>
       <div className="stack-icons">
         <img src={python} alt="" />
