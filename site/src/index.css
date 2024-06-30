@@ -60,7 +60,7 @@ a {
 }
 
 #projects .project {
-  width: 265px;
+  width: 270px;
   margin-bottom: 5%;
   margin-right: 3%;
   border-bottom: 2px solid #FCEFD8;
@@ -71,7 +71,8 @@ a {
 #projects .project img {
   border-radius: 10px;
   width: 100%;
-  height: 280px;
+  height: 270px; 
+  object-fit: cover; 
 }
 #projects .project .text {
   padding-left: 5%;

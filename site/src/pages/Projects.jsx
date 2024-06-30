@@ -1,33 +1,59 @@
 import React from "react";
-import keyboardShopImg from "../assets/projects/keyboardShop.png";
-import microcontrollerImg from "../assets/projects/microcontroller.png";
+import microcontrollerImg from "../assets/projects/microcontroller.jpg";
 import projectShopImg from "../assets/projects/projectShop.png";
 import converterVideoImg from "../assets/projects/converterVideo.png";
-import fiveParserImg from "../assets/projects/fiveParser.png";
 import csmoneyBotImg from "../assets/projects/csmoneyBot.png";
-import gptAssistantImg from "../assets/projects/gptAssistant.png";
-import weatherImg from "../assets/projects/weather.png";
+import photos from "../assets/projects/photos.jpg";
+import fusion from "../assets/projects/fusion.jpeg";
 
 function Projects() {
   return (
     <>
       <div id="projects">
         <div className="project">
-          <img src={projectShopImg} alt="" />
+          <img src={fusion} alt="" />
           <div className="text">
-            <a href="https://github.com/Kematin/Telegram-Bots/tree/main/SellProjectBot">
-              <h3>Магазин проектов ⭐</h3>
+            <a href="https://github.com/Kematin/fusion_work_test.git">
+              <h3>Fusion bot</h3>
+            </a>
+            <p>Магазин одежды</p>
+          </div>
+        </div>
+        <div className="project">
+          <img src={photos} alt="" />
+          <div className="text">
+            <a href="https://github.com/Kematin/image_test">
+              <h3>API изображений</h3>
             </a>
             <p>
-              Телеграм магазин (бот) по продаже школьных проектов с готовой
-              админ панелью
+              Тестовое по выгрузке изображений на отдельное s3 + websocket
+              оповещение
             </p>
+          </div>
+        </div>
+        <div className="project">
+          <img src={microcontrollerImg} alt="" />
+          <div className="text">
+            <a href="https://github.com/Kematin/School-Project">
+              <h3>Микроконтроллеры</h3>
+            </a>
+            <p>Сайт-визитка для изучения микроконтроллеров</p>
+          </div>
+        </div>
+
+        <div className="project">
+          <img src={projectShopImg} alt="" />
+          <div className="text">
+            <a href="https://github.com/Kematin/project-system">
+              <h3>Project shop</h3>
+            </a>
+            <p>Телеграм магазин по продаже школьных проектов с админ панелью</p>
           </div>
         </div>
         <div className="project">
           <img src={converterVideoImg} alt="" />
           <div className="text">
-            <a href="https://github.com/Kematin/Telegram-Bots/tree/main/ConvertVideoToAudio">
+            <a href="https://github.com/Kematin/convert-video">
               <h3>Конвертер видео</h3>
             </a>
             <p>
@@ -42,52 +68,7 @@ function Projects() {
             <a href="https://github.com/Kematin/Parsers/tree/main/CSMoney">
               <h3>Парсер скинов</h3>
             </a>
-            <p>Асинхронный парсер выгодных предложений с CSMoney с тг ботом</p>
-          </div>
-        </div>
-        <div className="project">
-          <img src={keyboardShopImg} alt="" />
-          <div className="text">
-            <a href="https://github.com/Kematin/Keyboard-Shop">
-              <h3>Магазин клавиатур</h3>
-            </a>
-            <p>Онлайн магазин по продаже клавиатур (geekboards like)</p>
-          </div>
-        </div>
-        <div className="project">
-          <img src={microcontrollerImg} alt="" />
-          <div className="text">
-            <a href="https://github.com/Kematin/School-Project">
-              <h3>Микроконтроллеры</h3>
-            </a>
-            <p>Сайт-визитка для изучения микроконтроллеров</p>
-          </div>
-        </div>
-        <div className="project">
-          <img src={fiveParserImg} alt="" />
-          <div className="text">
-            <a href="https://github.com/Kematin/Parsers/tree/main/FiveShopParser">
-              <h3>Парсер скидок</h3>
-            </a>
-            <p>Асинхронный парсер выгодных предложений пятерочки с тг ботом</p>
-          </div>
-        </div>
-        <div className="project">
-          <img src={gptAssistantImg} alt="" />
-          <div className="text">
-            <a href="https://github.com/Kematin/chatgpt-assistant">
-              <h3>GPT Assitant</h3>
-            </a>
-            <p>Сайт для использования ChatGPT с гибкими настройками</p>
-          </div>
-        </div>
-        <div className="project">
-          <img src={weatherImg} alt="" />
-          <div className="text">
-            <a href="https://github.com/Kematin/WEB-projects/tree/master/WeatherApp">
-              <h3>Погодное приложение ❤️</h3>
-            </a>
-            <p>Веб приложение для информирования о погоде (первый проект) </p>
+            <p>Парсер выгодных предложений с CSMoney</p>
           </div>
         </div>
       </div>
